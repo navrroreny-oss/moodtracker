@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		060AC38A2F5B99D30057FFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060AC3742F5B99D10057FFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060AC37B2F5B99D10057FFF3;
+			remoteInfo = "Mood Story - Daily Mood Tracker";
+		};
+		060AC3942F5B99D30057FFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060AC3742F5B99D10057FFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060AC37B2F5B99D10057FFF3;
+			remoteInfo = "Mood Story - Daily Mood Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060AC37C2F5B99D10057FFF3 /* Melbett - Daily Mood Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Melbett - Daily Mood Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060AC3892F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood Story - Daily Mood TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060AC3932F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood Story - Daily Mood TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		060AC37E2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mood Story - Daily Mood Tracker";
+			sourceTree = "<group>";
+		};
+		060AC38C2F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mood Story - Daily Mood TrackerTests";
+			sourceTree = "<group>";
+		};
+		060AC3962F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mood Story - Daily Mood TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060AC3792F5B99D10057FFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC3862F5B99D30057FFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC3902F5B99D30057FFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060AC3732F5B99D10057FFF3 = {
+			isa = PBXGroup;
+			children = (
+				060AC37E2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */,
+				060AC38C2F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests */,
+				060AC3962F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests */,
+				060AC37D2F5B99D10057FFF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		060AC37D2F5B99D10057FFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060AC37C2F5B99D10057FFF3 /* Melbett - Daily Mood Tracker.app */,
+				060AC3892F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests.xctest */,
+				060AC3932F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060AC37B2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060AC39D2F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood Tracker" */;
+			buildPhases = (
+				060AC3782F5B99D10057FFF3 /* Sources */,
+				060AC3792F5B99D10057FFF3 /* Frameworks */,
+				060AC37A2F5B99D10057FFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				060AC37E2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */,
+			);
+			name = "Mood Story - Daily Mood Tracker";
+			packageProductDependencies = (
+			);
+			productName = "Mood Story - Daily Mood Tracker";
+			productReference = 060AC37C2F5B99D10057FFF3 /* Melbett - Daily Mood Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		060AC3882F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060AC3A02F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood TrackerTests" */;
+			buildPhases = (
+				060AC3852F5B99D30057FFF3 /* Sources */,
+				060AC3862F5B99D30057FFF3 /* Frameworks */,
+				060AC3872F5B99D30057FFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060AC38B2F5B99D30057FFF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				060AC38C2F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests */,
+			);
+			name = "Mood Story - Daily Mood TrackerTests";
+			packageProductDependencies = (
+			);
+			productName = "Mood Story - Daily Mood TrackerTests";
+			productReference = 060AC3892F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		060AC3922F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060AC3A32F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood TrackerUITests" */;
+			buildPhases = (
+				060AC38F2F5B99D30057FFF3 /* Sources */,
+				060AC3902F5B99D30057FFF3 /* Frameworks */,
+				060AC3912F5B99D30057FFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060AC3952F5B99D30057FFF3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				060AC3962F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests */,
+			);
+			name = "Mood Story - Daily Mood TrackerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Mood Story - Daily Mood TrackerUITests";
+			productReference = 060AC3932F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060AC3742F5B99D10057FFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					060AC37B2F5B99D10057FFF3 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					060AC3882F5B99D30057FFF3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 060AC37B2F5B99D10057FFF3;
+					};
+					060AC3922F5B99D30057FFF3 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 060AC37B2F5B99D10057FFF3;
+					};
+				};
+			};
+			buildConfigurationList = 060AC3772F5B99D10057FFF3 /* Build configuration list for PBXProject "Mood Story - Daily Mood Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060AC3732F5B99D10057FFF3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 060AC37D2F5B99D10057FFF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060AC37B2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */,
+				060AC3882F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerTests */,
+				060AC3922F5B99D30057FFF3 /* Mood Story - Daily Mood TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060AC37A2F5B99D10057FFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC3872F5B99D30057FFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC3912F5B99D30057FFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060AC3782F5B99D10057FFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC3852F5B99D30057FFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060AC38F2F5B99D30057FFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060AC38B2F5B99D30057FFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060AC37B2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */;
+			targetProxy = 060AC38A2F5B99D30057FFF3 /* PBXContainerItemProxy */;
+		};
+		060AC3952F5B99D30057FFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060AC37B2F5B99D10057FFF3 /* Mood Story - Daily Mood Tracker */;
+			targetProxy = 060AC3942F5B99D30057FFF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		060AC39B2F5B99D30057FFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		060AC39C2F5B99D30057FFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060AC39E2F5B99D30057FFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daily.moodtracker;
+				PRODUCT_NAME = "Melbett - Daily Mood Tracker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		060AC39F2F5B99D30057FFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daily.moodtracker;
+				PRODUCT_NAME = "Melbett - Daily Mood Tracker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		060AC3A12F5B99D30057FFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moodstory.dailymoodtracker.Mood-Story---Daily-Mood-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mood Story - Daily Mood Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mood Story - Daily Mood Tracker";
+			};
+			name = Debug;
+		};
+		060AC3A22F5B99D30057FFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moodstory.dailymoodtracker.Mood-Story---Daily-Mood-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mood Story - Daily Mood Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mood Story - Daily Mood Tracker";
+			};
+			name = Release;
+		};
+		060AC3A42F5B99D30057FFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moodstory.dailymoodtracker.Mood-Story---Daily-Mood-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mood Story - Daily Mood Tracker";
+			};
+			name = Debug;
+		};
+		060AC3A52F5B99D30057FFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moodstory.dailymoodtracker.Mood-Story---Daily-Mood-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mood Story - Daily Mood Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060AC3772F5B99D10057FFF3 /* Build configuration list for PBXProject "Mood Story - Daily Mood Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060AC39B2F5B99D30057FFF3 /* Debug */,
+				060AC39C2F5B99D30057FFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060AC39D2F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060AC39E2F5B99D30057FFF3 /* Debug */,
+				060AC39F2F5B99D30057FFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060AC3A02F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060AC3A12F5B99D30057FFF3 /* Debug */,
+				060AC3A22F5B99D30057FFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060AC3A32F5B99D30057FFF3 /* Build configuration list for PBXNativeTarget "Mood Story - Daily Mood TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060AC3A42F5B99D30057FFF3 /* Debug */,
+				060AC3A52F5B99D30057FFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060AC3742F5B99D10057FFF3 /* Project object */;
+}
