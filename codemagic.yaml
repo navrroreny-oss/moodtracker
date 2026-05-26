@@ -19,7 +19,7 @@ workflows:
         BUNDLE_ID: "com.daily.moodtracker" # Замініть на ваш фактичний bundle identifier
         XCODE_PROJECT: "Mood Story - Daily Mood Tracker.xcodeproj" # Замініть на ваш фактичну назву Xcode проекту
         XCODE_SCHEME: "Mood Story - Daily Mood Tracker" # Замініть на ваш фактичну назву Xcode схеми
-      xcode: 16.4
+      xcode: 26.2
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
