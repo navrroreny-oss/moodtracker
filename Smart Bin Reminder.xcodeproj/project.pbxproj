@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		066F00A02F5BA18900F3430F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 066F008A2F5BA18800F3430F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 066F00912F5BA18800F3430F;
+			remoteInfo = "Smart Bin Reminder";
+		};
+		066F00AA2F5BA18900F3430F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 066F008A2F5BA18800F3430F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 066F00912F5BA18800F3430F;
+			remoteInfo = "Smart Bin Reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066F00922F5BA18800F3430F /* Smart Bin Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bin Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066F009F2F5BA18900F3430F /* Smart Bin ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Bin ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066F00A92F5BA18900F3430F /* Smart Bin ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Bin ReminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		066F00942F5BA18800F3430F /* Smart Bin Reminder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart Bin Reminder";
+			sourceTree = "<group>";
+		};
+		066F00A22F5BA18900F3430F /* Smart Bin ReminderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart Bin ReminderTests";
+			sourceTree = "<group>";
+		};
+		066F00AC2F5BA18900F3430F /* Smart Bin ReminderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart Bin ReminderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066F008F2F5BA18800F3430F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F009C2F5BA18900F3430F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F00A62F5BA18900F3430F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066F00892F5BA18800F3430F = {
+			isa = PBXGroup;
+			children = (
+				066F00942F5BA18800F3430F /* Smart Bin Reminder */,
+				066F00A22F5BA18900F3430F /* Smart Bin ReminderTests */,
+				066F00AC2F5BA18900F3430F /* Smart Bin ReminderUITests */,
+				066F00932F5BA18800F3430F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		066F00932F5BA18800F3430F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				066F00922F5BA18800F3430F /* Smart Bin Reminder.app */,
+				066F009F2F5BA18900F3430F /* Smart Bin ReminderTests.xctest */,
+				066F00A92F5BA18900F3430F /* Smart Bin ReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		066F00912F5BA18800F3430F /* Smart Bin Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066F00B32F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin Reminder" */;
+			buildPhases = (
+				066F008E2F5BA18800F3430F /* Sources */,
+				066F008F2F5BA18800F3430F /* Frameworks */,
+				066F00902F5BA18800F3430F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				066F00942F5BA18800F3430F /* Smart Bin Reminder */,
+			);
+			name = "Smart Bin Reminder";
+			packageProductDependencies = (
+			);
+			productName = "Smart Bin Reminder";
+			productReference = 066F00922F5BA18800F3430F /* Smart Bin Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		066F009E2F5BA18900F3430F /* Smart Bin ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066F00B62F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin ReminderTests" */;
+			buildPhases = (
+				066F009B2F5BA18900F3430F /* Sources */,
+				066F009C2F5BA18900F3430F /* Frameworks */,
+				066F009D2F5BA18900F3430F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				066F00A12F5BA18900F3430F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				066F00A22F5BA18900F3430F /* Smart Bin ReminderTests */,
+			);
+			name = "Smart Bin ReminderTests";
+			packageProductDependencies = (
+			);
+			productName = "Smart Bin ReminderTests";
+			productReference = 066F009F2F5BA18900F3430F /* Smart Bin ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		066F00A82F5BA18900F3430F /* Smart Bin ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066F00B92F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin ReminderUITests" */;
+			buildPhases = (
+				066F00A52F5BA18900F3430F /* Sources */,
+				066F00A62F5BA18900F3430F /* Frameworks */,
+				066F00A72F5BA18900F3430F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				066F00AB2F5BA18900F3430F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				066F00AC2F5BA18900F3430F /* Smart Bin ReminderUITests */,
+			);
+			name = "Smart Bin ReminderUITests";
+			packageProductDependencies = (
+			);
+			productName = "Smart Bin ReminderUITests";
+			productReference = 066F00A92F5BA18900F3430F /* Smart Bin ReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		066F008A2F5BA18800F3430F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					066F00912F5BA18800F3430F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					066F009E2F5BA18900F3430F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 066F00912F5BA18800F3430F;
+					};
+					066F00A82F5BA18900F3430F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 066F00912F5BA18800F3430F;
+					};
+				};
+			};
+			buildConfigurationList = 066F008D2F5BA18800F3430F /* Build configuration list for PBXProject "Smart Bin Reminder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 066F00892F5BA18800F3430F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 066F00932F5BA18800F3430F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				066F00912F5BA18800F3430F /* Smart Bin Reminder */,
+				066F009E2F5BA18900F3430F /* Smart Bin ReminderTests */,
+				066F00A82F5BA18900F3430F /* Smart Bin ReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066F00902F5BA18800F3430F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F009D2F5BA18900F3430F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F00A72F5BA18900F3430F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066F008E2F5BA18800F3430F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F009B2F5BA18900F3430F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		066F00A52F5BA18900F3430F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		066F00A12F5BA18900F3430F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 066F00912F5BA18800F3430F /* Smart Bin Reminder */;
+			targetProxy = 066F00A02F5BA18900F3430F /* PBXContainerItemProxy */;
+		};
+		066F00AB2F5BA18900F3430F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 066F00912F5BA18800F3430F /* Smart Bin Reminder */;
+			targetProxy = 066F00AA2F5BA18900F3430F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		066F00B12F5BA18900F3430F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		066F00B22F5BA18900F3430F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		066F00B42F5BA18900F3430F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.reminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		066F00B52F5BA18900F3430F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.reminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		066F00B72F5BA18900F3430F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbin.reminder.Smart-Bin-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bin Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Bin Reminder";
+			};
+			name = Debug;
+		};
+		066F00B82F5BA18900F3430F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbin.reminder.Smart-Bin-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bin Reminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Bin Reminder";
+			};
+			name = Release;
+		};
+		066F00BA2F5BA18900F3430F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbin.reminder.Smart-Bin-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bin Reminder";
+			};
+			name = Debug;
+		};
+		066F00BB2F5BA18900F3430F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbin.reminder.Smart-Bin-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bin Reminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066F008D2F5BA18800F3430F /* Build configuration list for PBXProject "Smart Bin Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066F00B12F5BA18900F3430F /* Debug */,
+				066F00B22F5BA18900F3430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066F00B32F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066F00B42F5BA18900F3430F /* Debug */,
+				066F00B52F5BA18900F3430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066F00B62F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066F00B72F5BA18900F3430F /* Debug */,
+				066F00B82F5BA18900F3430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066F00B92F5BA18900F3430F /* Build configuration list for PBXNativeTarget "Smart Bin ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066F00BA2F5BA18900F3430F /* Debug */,
+				066F00BB2F5BA18900F3430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 066F008A2F5BA18800F3430F /* Project object */;
+}

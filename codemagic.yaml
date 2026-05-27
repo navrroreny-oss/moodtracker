@@ -14,11 +14,11 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store # or: RemoteXAPI
-        bundle_identifier: com.daily.moodtracker # Замініть на ваш фактичний bundle identifier
+        bundle_identifier: com.smart.reminder # Замініть на ваш фактичний bundle identifier
       vars:
-        BUNDLE_ID: "com.daily.moodtracker" # Замініть на ваш фактичний bundle identifier
-        XCODE_PROJECT: "Mood Story - Daily Mood Tracker.xcodeproj" # Замініть на ваш фактичну назву Xcode проекту
-        XCODE_SCHEME: "Mood Story - Daily Mood Tracker" # Замініть на ваш фактичну назву Xcode схеми
+        BUNDLE_ID: "com.smart.reminder" # Замініть на ваш фактичний bundle identifier
+        XCODE_PROJECT: "Smart Bin Reminder.xcodeproj" # Замініть на ваш фактичну назву Xcode проекту
+        XCODE_SCHEME: "Smart Bin Reminder" # Замініть на ваш фактичну назву Xcode схеми
       xcode: 26.2
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
